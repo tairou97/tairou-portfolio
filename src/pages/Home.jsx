@@ -1,16 +1,15 @@
 import React from "react";
+import HeroText from "../home-images/HeroText";
+import MapImages from "../home-images/MapImages";
+import BoatVideo from "../home-images/BoatVideo";
 
 const Home = () => {
   return (
-    <div className="flex h-screen w-full  justify-center items-center text-blue-500 font-bold text-4xl">
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-        veritatis, vitae voluptatem illum a expedita ab voluptas dicta impedit
-        quisquam iste ducimus sapiente officiis vero sequi soluta, doloremque
-        quaerat iure.
-      </p>
-    </div>
+    <>
+      <HeroText />
+      <MapImages />
+      <BoatVideo />
+    </>
   );
 };
 

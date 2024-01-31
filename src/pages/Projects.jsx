@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="flex h-screen w-full  justify-center items-center text-blue-500 font-bold text-4xl">
+    <div className="flex flex-col h-screen w-full  justify-center items-center text-blue-500 font-bold text-4xl text-center">
       <p>
         Hier finden Sie eine Auswahl meiner Projekte, an denen ich gearbeitet
         habe. Jedes Projekt demonstriert meine Fähigkeiten und meine
