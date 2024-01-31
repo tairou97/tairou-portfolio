@@ -1,7 +1,11 @@
 import React from "react";
 
 const BoatVideo = () => {
-  return <div>BoatVideo</div>;
+  return (
+    <video className="h-100vh w-full object-cover" autoPlay muted loop>
+      <source src="src/assets/boat-video.mp4" type="video/mp4" />
+    </video>
+  );
 };
 
 export default BoatVideo;

@@ -1,10 +1,20 @@
 import React from "react";
+import Logo from "../icons/Logo";
+import Baske from "../icons/Baske";
+// import { Motion } from "framer-motion";
 
 const HeroText = () => {
   return (
+    // <Motion.div
+    //   layout
+    //   initial={{ opacity: 0 }}
+    //   animate={{ height: "unset" }}
+    //   transition={{ delay: animationStart, duration: 1 }}
     <div className=" flex flex-col items-center text-center pt-100px">
       <div className="flex flex-col text-3vw <md:text-24px font-bold mb-30px">
-        <span> deliving industry`s</span>
+        <span className="flex items-center gap-10px">
+          deliving <Baske /> industry`s
+        </span>
         <span>top tallents work</span>
       </div>
 
@@ -15,6 +25,7 @@ const HeroText = () => {
         Händen - lass sie uns gestalten!"
       </span>
     </div>
+    //* </Motion.div> */}
   );
 };
 
