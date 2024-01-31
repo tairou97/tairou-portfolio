@@ -1,0 +1,23 @@
+{
+  
+      "list": [
+        {
+          "name": "Fähigkeit 1",
+          "description": "Beschreibung oder Beispiele"
+        },
+        {
+          "name": "Fähigkeit 2",
+          "description": "Beschreibung oder Beispiele"
+        },
+        {
+          "name": "Fähigkeit 3",
+          "description": "Beschreibung oder Beispiele"
+        },
+        {
+          "name": "Fähigkeit 4",
+          "description": "Beschreibung oder Beispiele"
+        }
+      ]
+
+  }
+  

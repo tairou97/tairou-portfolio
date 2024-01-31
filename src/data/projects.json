@@ -1,0 +1,29 @@
+{
+    "portfolioData": [
+      {
+        "name": "Projektname 1",
+        "description": "Beschreibung des Projekts und meine Rolle",
+        "achievements": "Ergebnisse oder Leistungen",
+        "github_link": "Link zum GitHub-Repository",
+        "website_link": "Link zur Projektwebsite",
+        "image_url": "URL des Projektbildes"
+      },
+      {
+        "name": "Projektname 2",
+        "description": "Beschreibung des Projekts und meine Rolle",
+        "achievements": "Ergebnisse oder Leistungen",
+        "github_link": "Link zum GitHub-Repository",
+        "website_link": "Link zur Projektwebsite",
+        "image_url": "URL des Projektbildes"
+      },
+      {
+        "name": "Projektname 3",
+        "description": "Beschreibung des Projekts und meine Rolle",
+        "achievements": "Ergebnisse oder Leistungen",
+        "github_link": "Link zum GitHub-Repository",
+        "website_link": "Link zur Projektwebsite",
+        "image_url": "URL des Projektbildes"
+      }
+    ]
+  }
+  
