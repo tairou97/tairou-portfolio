@@ -7,7 +7,7 @@ const Contact = () => {
       <p>
         Möchten Sie mit mir in Kontakt treten oder mehr über meine Arbeit
         erfahren? Zögern Sie nicht, mich zu kontaktieren. Sie können mich per
-        E-Mail unter{" "}
+        E-Mail unter
         <a
           href="mailto:tairou97-mouhamed@hotmail.com"
           target="_blank"
