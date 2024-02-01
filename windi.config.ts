@@ -4,7 +4,7 @@ export default defineConfig({
   theme: {
     extend: {
       animation: {
-        "clip-from-top-animation": "clip 1s ease-in-out 5.5s forwards",
+        "clip-from-top-animation": "clip 1s ease-in-out 0.5s forwards",
       },
       keyframes: {
         "clip": {

@@ -21,9 +21,9 @@ const HeroText = () => {
         className="flex flex-col text-3vw <md:text-24px font-bold mb-30px pt-100px"
       >
         <span className="flex items-center gap-10px">
-          deliving <Baske /> industry`s
+          Hello there, <Baske /> I'm Tairou
         </span>
-        <span>top tallents work</span>
+        <span>a Fullstack Developer</span>
       </motion.div>
 
       <motion.span
@@ -33,10 +33,12 @@ const HeroText = () => {
         transition={{ delay: animationStart + 1.5, duration: 0.5 }}
         className="mb-30px w-1/4 <lg:w-1/3 <md:w-1/2 text-14px  leading-tight"
       >
-        Willkommen in einer Welt voller Möglichkeiten und Abenteuer. Gemeinsam
-        schreiben wir die Zukunft neu und erschaffen das Unmögliche. Sei bereit,
-        Grenzen zu überwinden und Träume zu leben. Die Zukunft liegt in unseren
-        Händen - lass sie uns gestalten!
+        driven by a love for developing seamless web applications. My expertise
+        lies in sculpting captivating user interfaces on the frontend and
+        constructing sturdy backend systems. Through a commitment to
+        collaboration and an unyielding dedication to staying at the forefront
+        of industry advancements, I work tirelessly to deliver top-notch
+        solutions that leave a lasting, positive imprint.
       </motion.span>
     </motion.div>
   );

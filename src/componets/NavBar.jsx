@@ -38,7 +38,7 @@ const NavBar = () => {
 
         <ul className="flex gap-20px items-center <md-hidden">
           {navBar.map((e) => (
-            <motion.li variants={reveal} key={e.Id}>
+            <motion.li key={e.Id}>
               <NavLink variants={reveal} to={e.to}>
                 {e.name}
               </NavLink>
