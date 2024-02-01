@@ -1,7 +1,7 @@
 import React from "react";
-import HeroText from "../home-images/HeroText";
-import MapImages from "../home-images/MapImages";
-import BoatVideo from "../home-images/BoatVideo";
+import HeroText from "../Header-images/HeroText";
+import MapImages from "../Header-images/MapImages";
+import BoatVideo from "../Header-images/BoatVideo";
 
 const Home = () => {
   return (

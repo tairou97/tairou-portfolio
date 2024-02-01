@@ -1,16 +1,12 @@
 import React from "react";
-
+import Json from "../data/about.json";
+import { useState } from "react";
 const About = () => {
+  const [about, setAbout] = useState(Json[0].portfolioData.description);
   return (
     <div className="flex flex-col h-screen w-full  justify-center items-center text-blue-500 font-bold text-4xl text-center">
       <h1>About</h1>
-      <p>
-        Ich bin leidenschaftlich daran interessiert, innovative Lösungen zu
-        entwickeln und hochwertige Projekte umzusetzen. Mit einer starken
-        Grundlage in [deinem Bereich] und einem breiten Spektrum an Fähigkeiten
-        in [relevanten Bereichen] bin ich stets bestrebt, mich
-        weiterzuentwickeln und neue Herausforderungen anzunehmen.
-      </p>
+      <p>{about}</p>
     </div>
   );
 };

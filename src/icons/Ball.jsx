@@ -9,7 +9,7 @@ const Ball = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_684_442)">
+      <g clipPath="url(#clip0_684_442)">
         <path
           d="M10 6.68335C5.96671 9.73335 3.33337 14.55 3.33337 20C3.33337 22.4333 3.86671 24.75 4.81671 26.85L10 23.85V6.68335Z"
           fill="#323232"
